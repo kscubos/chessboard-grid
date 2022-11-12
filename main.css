@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.board {
+    border: 10px solid;
+    height: min(64vh, 64vw);
+    width: min(64vh, 64vw);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.cell {
+    height: min(8vh, 8vw);
+    width: min(8vh, 8vw);
+    font-size: min(6vh, 6vw);
+    text-align: center;
+    background-color: #F3F3F4;
+}
+
+.green {
+    background-color: #6A9B41;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #302E2B; 
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+}
